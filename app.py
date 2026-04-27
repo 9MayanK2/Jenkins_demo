@@ -1,6 +1,6 @@
-import flask from flask
+import flask from Flask
 
-app=flask(__name__)
+app=Flask(__name__)
 
 @app.route("/",methods=['GET'])
 def home():
